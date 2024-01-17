@@ -92,6 +92,25 @@
             }
         }
 
+        body {
+            background-color: #f5f5f5;
+            color: #000000;
+        }
+        @media (prefers-color-scheme: dark) {
+            img {
+                filter: brightness(.8) contrast(1.2);
+                border: 1px solid #f5f5f5;
+            }
+            body {
+                background-color:#000000;
+                color: #f5f5f5;
+            }
+
+            .content {
+                border-color: #f5f5f5;
+            }
+        }
+
     </style>
 </head>
 <body>
